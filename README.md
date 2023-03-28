@@ -3,9 +3,9 @@
 This repo contains the implementation of the algorithms described in the book Low-Level Programming - C, Assembly, and Program Execution on
 Intel® 64 Architecture, by Igor Zhirkov.
 
-All the algorithms are written using x86-64 archicture and Linux syscalls.
+All the algorithms are written using x86-64 architecture commands and Linux syscalls.
 
-The compilation process follows theses steps:
+The compilation process follows these steps:
 
     nasm -felf64 <inputAsmProgramName.asm> -o <outputObjectFile.o>
     ld -o <outputExecutable> <inputObjectfile.o>
