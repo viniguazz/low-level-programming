@@ -13,9 +13,9 @@ The compilation process follows these steps:
   
 For instance:
 
-  nasm -felf64 helloWorld.asm -o helloWorld.o
-  ld -o helloWorld helloWorld.o
-  chmod u+x helloWorld
+      nasm -felf64 helloWorld.asm -o helloWorld.o
+      ld -o helloWorld helloWorld.o
+      chmod u+x helloWorld
   
 To execute the file:
 
