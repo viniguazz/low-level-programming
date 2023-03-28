@@ -7,9 +7,9 @@ All the algorithms are written using x86-64 archicture and Linux syscalls.
 
 The compilation process follows theses steps:
 
-  nasm -felf64 <inputAsmProgramName.asm> -o <outputObjectFile.o>
-  ld -o <outputExecutable> <inputObjectfile.o>
-  chmod u+x <filename>
+    nasm -felf64 <inputAsmProgramName.asm> -o <outputObjectFile.o>
+    ld -o <outputExecutable> <inputObjectfile.o>
+    chmod u+x <filename>
   
 For instance:
 
@@ -19,7 +19,7 @@ For instance:
   
 To execute the file:
 
-  ./<executableFileName>
+    ./<executableFileName>
   
 Have fun!
 
